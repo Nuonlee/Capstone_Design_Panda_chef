@@ -139,8 +139,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 404.0,
-            "y": -192.0
+            "x": 537.0,
+            "y": -175.0
         },
         "m_Blocks": [
             {
@@ -156,8 +156,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 378.0000305175781,
-            "y": 97.0
+            "x": 537.0,
+            "y": 90.0
         },
         "m_Blocks": [
             {
@@ -419,7 +419,7 @@
     "m_ZTestMode": 4,
     "m_ZWriteControl": 0,
     "m_AlphaMode": 0,
-    "m_RenderFace": 2,
+    "m_RenderFace": 1,
     "m_AlphaClip": false,
     "m_CastShadows": true,
     "m_ReceiveShadows": true,
@@ -472,8 +472,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -875.4915161132813,
-            "y": -33.49153137207031,
+            "x": -647.0,
+            "y": -124.0,
             "width": 208.0,
             "height": 315.0
         }
@@ -562,8 +562,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 80.0,
-            "y": -364.0,
+            "x": 170.0,
+            "y": -258.0,
             "width": 208.0,
             "height": 361.0
         }
@@ -685,8 +685,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -505.0,
-            "y": -134.0,
+            "x": -406.0,
+            "y": -148.0,
             "width": 208.0,
             "height": 302.0
         }
@@ -778,7 +778,7 @@
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
-    "m_Precision": 0,
+    "m_Precision": 2,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
@@ -789,7 +789,7 @@
         "a": 0.0
     },
     "isMainColor": false,
-    "m_ColorMode": 0
+    "m_ColorMode": 1
 }
 
 {
@@ -923,8 +923,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 176.0,
-            "y": 134.0,
+            "x": 236.0,
+            "y": 141.0,
             "width": 142.0,
             "height": 34.0
         }
@@ -935,7 +935,7 @@
         }
     ],
     "synonyms": [],
-    "m_Precision": 0,
+    "m_Precision": 2,
     "m_PreviewExpanded": true,
     "m_PreviewMode": 0,
     "m_CustomColors": {
@@ -958,8 +958,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -211.0,
-            "y": -244.0,
+            "x": -112.0,
+            "y": -258.0,
             "width": 208.0,
             "height": 361.0
         }
@@ -1056,8 +1056,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -699.0,
-            "y": -159.0,
+            "x": -527.0,
+            "y": -193.0,
             "width": 104.0,
             "height": 34.0
         }
