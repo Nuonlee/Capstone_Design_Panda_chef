@@ -28,18 +28,23 @@ public class GameManager : MonoBehaviour
             player.GetComponent<CharacterMove>().moveSpeed = 7;
         }
 
-        if (isGameover == true)
+        if(Input.GetKeyDown(KeyCode.Tab))
         {
-            player.GetComponent<CharacterMove>().moveSpeed = 0;
-            player.GetComponent<MouseMove>().sensitivity = 0;
-            canvas.GetComponent<MenuController>().activePause(1);
+            canvas.GetComponent<MenuController>().black.SetActive(true);
         }
+
 
         if(player.GetComponent<CollisionScript>().isClear == true)
         {
             canvas.GetComponent<MenuController>().Clear.SetActive(true);
             player.GetComponent<CharacterMove>().moveSpeed = 0;
             player.GetComponent<MouseMove>().sensitivity = 0;
+        }
+        else if(player.GetComponent<CollisionScript>().isOver == true)
+        {
+            player.GetComponent<CharacterMove>().moveSpeed = 0;
+            player.GetComponent<MouseMove>().sensitivity = 0;
+            canvas.GetComponent<MenuController>().activePause(1);
         }
     }
 }
