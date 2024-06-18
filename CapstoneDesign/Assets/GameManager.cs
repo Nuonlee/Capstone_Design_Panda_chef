@@ -22,16 +22,12 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.KeypadEnter))
+        if (Input.anyKeyDown)
         {
             canvas.GetComponent<MenuController>().activePause(0);
             player.GetComponent<MouseMove>().sensitivity = 500;
             player.GetComponent<CharacterMove>().moveSpeed = 7;
-            player.GetComponentInChildren<GuidanceObject>().wayThrough.volume = 0;
-        }
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
-            canvas.GetComponent<MenuController>().black.SetActive(true);
+            player.GetComponentInChildren<GuidanceObject>().gamestart = 1;
         }
 
         if (player.GetComponent<CollisionScript>().isOver)
@@ -47,7 +43,7 @@ public class GameManager : MonoBehaviour
             canvas.GetComponent<MenuController>().Clear.SetActive(true);
             player.GetComponent<CharacterMove>().moveSpeed = 0;
             player.GetComponent<MouseMove>().sensitivity = 0;
-            player.transform.position = new Vector3(50, 1, 200);
+            player.GetComponentInChildren<GuidanceObject>().wayThrough.volume = 0;
         }
     }
 }

@@ -7,6 +7,9 @@ TagManager:
   - CinemachineTarget
   - Goal
   - Enemy
+  - Ground
+  - Road
+  - Lake
   layers:
   - Default
   - TransparentFX
