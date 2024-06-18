@@ -15,7 +15,7 @@ D:/Github/Capstone_Design_Panda_chef/CapstoneDesign
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-4880
+3513
 Successfully changed project path to: D:/Github/Capstone_Design_Panda_chef/CapstoneDesign
 D:/Github/Capstone_Design_Panda_chef/CapstoneDesign
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,13 +47,13 @@ D:/Github/Capstone_Design_Panda_chef/CapstoneDesign
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [60100] Host "[IP] 114.108.95.177 [Port] 0 [Flags] 2 [Guid] 566179673 [EditorId] 566179673 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AJSVOI1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5824] Host "[IP] 114.108.71.23 [Port] 0 [Flags] 2 [Guid] 3010358322 [EditorId] 3010358322 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AJSVOI1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [60100] Host "[IP] 114.108.95.177 [Port] 0 [Flags] 2 [Guid] 566179673 [EditorId] 566179673 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AJSVOI1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5824] Host "[IP] 114.108.71.23 [Port] 0 [Flags] 2 [Guid] 3010358322 [EditorId] 3010358322 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AJSVOI1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 128.55 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.79 ms.
+Refreshing native plugins compatible for Editor in 138.66 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.65 ms.
 Initialize engine version: 2021.3.36f1 (7a0645017be0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Github/Capstone_Design_Panda_chef/CapstoneDesign/Assets
@@ -68,7 +68,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -77,47 +77,47 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.035477 seconds.
+Registered in 0.038975 seconds.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 437 ms
+Android Extension - Scanning For ADB Devices 446 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 102.49 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 109.92 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.297 seconds
+- Completed reload, in  1.328 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1298ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (1329ms)
+		BeginReloadAssembly (170ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1002ms)
-			LoadAssemblies (131ms)
+		EndReloadAssembly (994ms)
+			LoadAssemblies (164ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (119ms)
+			SetupTypeCache (110ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (798ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (804ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (550ms)
+				InitializePlatformSupportModulesInManaged (553ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011744 seconds.
+Registered in 0.016340 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
@@ -125,36 +125,36 @@ Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 108.26 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 107.01 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.001 seconds
+- Completed reload, in  1.897 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2001ms)
-		BeginReloadAssembly (166ms)
+	ReloadAssembly (1898ms)
+		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1712ms)
-			LoadAssemblies (163ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1631ms)
+			LoadAssemblies (167ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (374ms)
+			SetupTypeCache (328ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (1104ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (1072ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (49ms)
+				InitializePlatformSupportModulesInManaged (48ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
-				BeforeProcessingInitializeOnLoad (139ms)
-				ProcessInitializeOnLoadAttributes (714ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
-				AfterProcessingInitializeOnLoad (22ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (697ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (21ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (14ms)
@@ -162,12 +162,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 5569 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (0.7 MB). Loaded Objects now: 6010.
-Memory consumption went from 246.1 MB to 245.4 MB.
-Total: 3.524000 ms (FindLiveObjects: 0.531100 ms CreateObjectMapping: 0.424300 ms MarkObjects: 2.276800 ms  DeleteObjects: 0.290900 ms)
+Unloading 5571 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (0.7 MB). Loaded Objects now: 6016.
+Memory consumption went from 246.7 MB to 246.0 MB.
+Total: 3.186900 ms (FindLiveObjects: 0.364800 ms CreateObjectMapping: 0.316600 ms MarkObjects: 2.257100 ms  DeleteObjects: 0.247700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -183,741 +183,268 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2082005.739441 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building Sky_small_color01.prefab
-  artifactKey: Guid(6a690a756dbd65141a09a3ad7fafacc4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+  Time since last request: 2519903.516634 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_small_color01.mat
+  artifactKey: Guid(cf528230e5d0dcd42ab2d20dcda96917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building Sky_small_color01.prefab using Guid(6a690a756dbd65141a09a3ad7fafacc4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '63f75bc0e028959fa8279e39e8738d01') in 0.189812 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Traffic Signal_big.prefab
-  artifactKey: Guid(d4cfcf659200d7548b90a5580c3ab18f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Traffic Signal_big.prefab using Guid(d4cfcf659200d7548b90a5580c3ab18f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '879d1eea3a1165064ec9a0d79330e760') in 0.020491 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Dustbin.prefab
-  artifactKey: Guid(d59a4f6080634af41a616bc51af1d2d9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Dustbin.prefab using Guid(d59a4f6080634af41a616bc51af1d2d9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'e38dfa9bad05481302c2f285238726b7') in 0.019470 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Bus Stop.prefab
-  artifactKey: Guid(8fa324388c16b5c4eac9846338b35b17) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Bus Stop.prefab using Guid(8fa324388c16b5c4eac9846338b35b17) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'edb4726384ef695ea288d479aabe130d') in 0.019517 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_House Floor.prefab
-  artifactKey: Guid(2d5fb229ae2945742b900a405a5e7a0b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_House Floor.prefab using Guid(2d5fb229ae2945742b900a405a5e7a0b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '580f80b84de1cf85aac840954ab10c45') in 0.026833 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Pot Bush_big.prefab
-  artifactKey: Guid(0ee6d569ec3227e40888e8151b331e0f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Pot Bush_big.prefab using Guid(0ee6d569ec3227e40888e8151b331e0f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '9780151053f3a3ab4fc32c49e6c2d67f') in 0.018882 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Street Light.prefab
-  artifactKey: Guid(b8ee657c6800ab849bb30b4375d02323) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_Street Light.prefab using Guid(b8ee657c6800ab849bb30b4375d02323) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'a7dfd67565af2552bc243f745e0ca9c5') in 0.017880 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Rock_small.prefab
-  artifactKey: Guid(9ec25066ec33fa84d9227e27c5f5a8a0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Rock_small.prefab using Guid(9ec25066ec33fa84d9227e27c5f5a8a0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '8c623d5ec5018ddf7cd7d2a2e852ef15') in 0.016586 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_House_01_color02.prefab
-  artifactKey: Guid(1f284b42849610642bfb5d418a57840b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_House_01_color02.prefab using Guid(1f284b42849610642bfb5d418a57840b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'df44c990ce3281f722da9fe64f6362fc') in 0.019288 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_BillBoard_large.prefab
-  artifactKey: Guid(653e28c8a1ae11240a6cdaac2f9ee8ea) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Props/Props_BillBoard_large.prefab using Guid(653e28c8a1ae11240a6cdaac2f9ee8ea) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'c155c8f9d9b54805989e1fb6a8d9b21b') in 0.019057 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Rock_Big.prefab
-  artifactKey: Guid(dac1a631b172e66469fb09e9987bcf57) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Natures/Natures_Rock_Big.prefab using Guid(dac1a631b172e66469fb09e9987bcf57) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'c8bf2f0ad0399f66616b71f0db40c620') in 0.017206 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Clothing.prefab
-  artifactKey: Guid(0c7bcaa85c9494849bc7a0a18b7f3324) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Clothing.prefab using Guid(0c7bcaa85c9494849bc7a0a18b7f3324) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '137e3955cbc93bf3b561260265f88821') in 0.018414 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Books Shop.png
-  artifactKey: Guid(29d6ba98d5bca734695ddaf5fdf19baf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Books Shop.png using Guid(29d6ba98d5bca734695ddaf5fdf19baf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'bbf75fde32980dc3ad58ab4d4641a96b') in 0.071064 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scenes/Stage2.unity
-  artifactKey: Guid(4b87bf5519d540a4cb55dd9f4096a4d6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Stage2.unity using Guid(4b87bf5519d540a4cb55dd9f4096a4d6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Scenes/Stage2.unity additively'
-Loaded scene 'Assets/Scenes/Stage2.unity'
-	Deserialize:            22.282 ms
-	Integration:            158.821 ms
-	Integration of assets:  0.015 ms
-	Thread Wait Time:       0.006 ms
-	Total Operation Time:   181.124 ms
- -> (artifact id: '3f5ee9a9a03d0dc98098696405cbf86d') in 1.979483 seconds 
-Number of asset objects unloaded after import = 461
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity
-  artifactKey: Guid(875684baf40f4d008ce806d03e2a81b2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity using Guid(875684baf40f4d008ce806d03e2a81b2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity additively'
-LightingSettings: switching bake backend from 1 to 0.
-Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity'
-	Deserialize:            18.977 ms
-	Integration:            2.811 ms
-	Integration of assets:  0.907 ms
-	Thread Wait Time:       0.017 ms
-	Total Operation Time:   22.711 ms
- -> (artifact id: '94b101d6b5942a78ffd2ab440581ee9c') in 0.050950 seconds 
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/StarterAssets/Environment/RenderPipelineProfiles/StarterAssetsURPGlobalSettings.asset
-  artifactKey: Guid(d075d680cccac4178aca7c82f2c05556) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/Environment/RenderPipelineProfiles/StarterAssetsURPGlobalSettings.asset using Guid(d075d680cccac4178aca7c82f2c05556) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'd817db40fd9a3d86af596c3a39864b57') in 0.014769 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
-  artifactKey: Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs using Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'eca017ee598982614b5db8e934ab044b') in 0.015317 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Stairs_200x100x200_Prefab.prefab
-  artifactKey: Guid(466621a4836aa504c87c15d88722d465) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/Environment/Prefabs/Stairs_200x100x200_Prefab.prefab using Guid(466621a4836aa504c87c15d88722d465) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '3c5f5eb30d11dc52b71cc1887ced6eb4') in 0.024681 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_big_color03.mat
-  artifactKey: Guid(a1a61be9dd7e91b4faec2c4eb7ca4e8c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_big_color03.mat using Guid(a1a61be9dd7e91b4faec2c4eb7ca4e8c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'd83d3c279e482a24fdc0341f29d9bfb0') in 0.015709 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/StarterAssets/StarterAssets_Documentation_v1.1.pdf
-  artifactKey: Guid(b5f957873a5b82042967195ffffc9063) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/StarterAssets_Documentation_v1.1.pdf using Guid(b5f957873a5b82042967195ffffc9063) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'e800fa7e9c7af0540632346e0d501b99') in 0.013100 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color01.mat
-  artifactKey: Guid(ca3609b9bffbfb14ab8e97e2329ad3b0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_House_03_color01.mat using Guid(ca3609b9bffbfb14ab8e97e2329ad3b0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '8c382076427e131dd1782817043da36c') in 0.011727 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity
-  artifactKey: Guid(08572ab7713642c8a60789750f0bce5c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity using Guid(08572ab7713642c8a60789750f0bce5c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity additively'
-Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity'
-	Deserialize:            24.003 ms
-	Integration:            7.044 ms
-	Integration of assets:  0.462 ms
-	Thread Wait Time:       0.047 ms
-	Total Operation Time:   31.556 ms
-The method get_fontSharedMaterials was not found on TextMeshPro Text. This property will not be indexed.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEditor.Rendering.Universal.Converters.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.14/Editor/Converter/MaterialReferenceBuilder.cs:133)
-UnityEditor.Rendering.Universal.Converters.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.14/Editor/Converter/ConversionIndexers.cs:21)
-UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
-UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
-UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
-UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
-UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
-UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
-UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.14/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
-
- -> (artifact id: '98f5619950c40eb926d4d018bc45c8a1') in 0.105856 seconds 
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Plugins/SteamAudio/Resources/Materials/Carpet.asset
-  artifactKey: Guid(4ef433d5b2fa5ad4a9e19a415c6ab619) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Resources/Materials/Carpet.asset using Guid(4ef433d5b2fa5ad4a9e19a415c6ab619) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '36102836b612d26ca235ad85ec8ca546') in 0.012336 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Plugins/SteamAudio/Scripts/Editor/SerializedDataInspector.cs
-  artifactKey: Guid(9184af0375b7f6140be4f789b5fc7083) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Scripts/Editor/SerializedDataInspector.cs using Guid(9184af0375b7f6140be4f789b5fc7083) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '722ec8fd36c1412f9d854c888f534b1d') in 0.009242 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
-  artifactKey: Guid(8878a782f4334ecbbcf683b3ac780966) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg using Guid(8878a782f4334ecbbcf683b3ac780966) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'a0c4fda3f1277e63d2d4d9aef1a9b45f') in 0.023240 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Plugins/SteamAudio/Binaries/iOS/libpffft.a
-  artifactKey: Guid(21fc99dc19b580f488a2af01bfed0e5b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Binaries/iOS/libpffft.a using Guid(21fc99dc19b580f488a2af01bfed0e5b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '49f214f6e888dc5485eaa6caa35482dc') in 0.019025 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Plugins/SteamAudio/Resources/Materials/Concrete.asset
-  artifactKey: Guid(2a011bab5de11df4c81c68931509f73a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Resources/Materials/Concrete.asset using Guid(2a011bab5de11df4c81c68931509f73a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '626119228ec49699e0fed2dc03ed42c7') in 0.010156 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
-  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '441b2f61041ab26d887e7043f11076f2') in 0.021140 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
-  artifactKey: Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd using Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '47a4ac9586deb34732ad0d76a858f620') in 0.029995 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Plugins/SteamAudio/Binaries/iOS/libmysofa.a
-  artifactKey: Guid(f412e2a7a2380df468289c5c708272af) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Binaries/iOS/libmysofa.a using Guid(f412e2a7a2380df468289c5c708272af) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '1fc629b22203d67cbb6cbc828ddafce7') in 0.011360 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Plugins/SteamAudio/Binaries/iOS/SteamAudioUnityAppController.mm
-  artifactKey: Guid(fee6b0e0ec75e4f1daa5bcd77cd3bef4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Binaries/iOS/SteamAudioUnityAppController.mm using Guid(fee6b0e0ec75e4f1daa5bcd77cd3bef4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'b4ebe8e1e10040af45927e91a14651c2') in 0.012314 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab
-  artifactKey: Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab using Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'eead6a2d48aa5fb758e992648035d972') in 0.315756 seconds 
-Number of asset objects unloaded after import = 508
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudioBakedListener.cs
-  artifactKey: Guid(3d1a2bdfdee8e5b48a9949c674b73640) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudioBakedListener.cs using Guid(3d1a2bdfdee8e5b48a9949c674b73640) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '2647051712b2d3c0d076930a28a643e4') in 0.011973 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Plugins/SteamAudio/Scripts/Editor/SteamAudioReverbGUI.cs
-  artifactKey: Guid(6f194df3638411045b8624f4e62e44fd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Scripts/Editor/SteamAudioReverbGUI.cs using Guid(6f194df3638411045b8624f4e62e44fd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'c358aa6112c8c0f6e0b0c22e8766c8d2') in 0.009178 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color03_separate.prefab
-  artifactKey: Guid(a8a6e2e210e71bc4ab5ba85122928ac8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color03_separate.prefab using Guid(a8a6e2e210e71bc4ab5ba85122928ac8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'df9c0320c811aaa9581490cf4e932f57') in 0.036760 seconds 
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Plugins/SteamAudio/Scripts/Runtime/OpenCLDevice.cs
-  artifactKey: Guid(980da0934e6939d439f50baac22a5286) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/OpenCLDevice.cs using Guid(980da0934e6939d439f50baac22a5286) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '4ac39cebad01327e460747c79327ec9f') in 0.010552 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color02_separate.prefab
-  artifactKey: Guid(025a3497fa872fe4ebfed7edb8eb310c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Container_color02_separate.prefab using Guid(025a3497fa872fe4ebfed7edb8eb310c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'afd730528b3ab5a75830de7d0ebfad5b') in 0.037933 seconds 
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudio.cs
-  artifactKey: Guid(faab0996f33b3304faccb7f9f8c48dc9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudio.cs using Guid(faab0996f33b3304faccb7f9f8c48dc9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '5010c54e51d5dfe22490594050476b8b') in 0.009658 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Ambulance.prefab
-  artifactKey: Guid(9b25e71fd5b7ac6469539d930c6dc2e6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Ambulance.prefab using Guid(9b25e71fd5b7ac6469539d930c6dc2e6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '234ce2c79bf53f733384dcafeb966385') in 0.018728 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Plugins/SteamAudio/Scripts/Runtime/TrueAudioNextDevice.cs
-  artifactKey: Guid(fdd785831c5dd8c43ab06d5c23bb56c6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/TrueAudioNextDevice.cs using Guid(fdd785831c5dd8c43ab06d5c23bb56c6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '9be30c7059e1e798fd7d65bfb1b04a4a') in 0.009274 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Plugins/SteamAudio/Scripts/Runtime/FMODStudioAudioEngineState.cs
-  artifactKey: Guid(f8e2075eab110ad4b88d26e434723035) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/FMODStudioAudioEngineState.cs using Guid(f8e2075eab110ad4b88d26e434723035) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '48c8e9161597fe1b0f0a3c27fa90c508') in 0.009964 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color03_separate.prefab
-  artifactKey: Guid(11a57a102cdb5e642899ceab079f1938) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color03_separate.prefab using Guid(11a57a102cdb5e642899ceab079f1938) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '6de3e7a813029af8b17a764ecc956289') in 0.031460 seconds 
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color02_separate.prefab
-  artifactKey: Guid(12dd350c4c7e7754b807b38a22b4d078) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color02_separate.prefab using Guid(12dd350c4c7e7754b807b38a22b4d078) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'ce04f3763c6e1bf740f0ab523350a87b') in 0.034027 seconds 
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Pick up Truck_color02_separate.prefab
-  artifactKey: Guid(b1969db97c2d8604ba4bfe3000a13858) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Pick up Truck_color02_separate.prefab using Guid(b1969db97c2d8604ba4bfe3000a13858) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'f8c9cd0ed6aa21edd88bb400cc4993e8') in 0.029375 seconds 
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color01_separate.prefab
-  artifactKey: Guid(d267fbb9e36c6e4458c9a8756d725a79) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Separated Wheels/Vehicle_Car_color01_separate.prefab using Guid(d267fbb9e36c6e4458c9a8756d725a79) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'c244ebcfe6945a1ccbe868f819c31faa') in 0.031991 seconds 
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudioGeometry.cs
-  artifactKey: Guid(e829c87dc2a2ed2419c5f67848317fe4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudioGeometry.cs using Guid(e829c87dc2a2ed2419c5f67848317fe4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'f052801d1467941724a782f65cd8f55e') in 0.010742 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building Sky_small_color01.mat using Guid(cf528230e5d0dcd42ab2d20dcda96917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb777df7301a83a48a954dd09d6e7f9') in 0.327609 seconds 
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudioSource.cs
-  artifactKey: Guid(59c3684b22f00604a97bb68037fcf4cd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Ambulance.mat
+  artifactKey: Guid(fded615538aced440887a3468715a826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudioSource.cs using Guid(59c3684b22f00604a97bb68037fcf4cd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '92f03e4d0e13b242541e2f0969e0b57e') in 0.010583 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudioMaterial.cs
-  artifactKey: Guid(1cb82a87a4954a947923856a12b49b38) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudioMaterial.cs using Guid(1cb82a87a4954a947923856a12b49b38) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '94979a7fc3007ece9a0d8fe17e5a1b96') in 0.010130 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Car_separate.fbx
-  artifactKey: Guid(62742ca8cd0c30a44b9301b3fae00884) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Car_separate.fbx using Guid(62742ca8cd0c30a44b9301b3fae00884) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '65f26bebbd1f876a9857377a4d631a36') in 0.054070 seconds 
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
-  artifactKey: Guid(a73109742c8d47ac822895a473300c29) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs using Guid(a73109742c8d47ac822895a473300c29) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '2b2eb9a1faa35d66b2e7040761c8d1b7') in 0.009831 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Plugins/SteamAudio/Scripts/Runtime/HRTF.cs
-  artifactKey: Guid(2676d545429ad5547a1ea3389903271e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/HRTF.cs using Guid(2676d545429ad5547a1ea3389903271e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'b6a5a540693fd73802d46cfed939c7f5') in 0.010349 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
-  artifactKey: Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs using Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'bdd1440eca45748222e602d04dcfcac0') in 0.011791 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_10.wav
-  artifactKey: Guid(a3194b8bbc96ef84fab1f98f4b7dae3e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_10.wav using Guid(a3194b8bbc96ef84fab1f98f4b7dae3e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '96d3dc43880c22e1c7a303fb928886af') in 0.048855 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab
-  artifactKey: Guid(7484ce6f8ca3d81408c606b5ae8b9ff3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab using Guid(7484ce6f8ca3d81408c606b5ae8b9ff3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'e9d1ebaebcdd8adda2c95cbf4f230e89') in 0.083635 seconds 
-Number of asset objects unloaded after import = 89
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Taxi.prefab
-  artifactKey: Guid(05aec82adc02f16409639716322b1673) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Taxi.prefab using Guid(05aec82adc02f16409639716322b1673) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '05bdcad49b50928832050ae9e04a7ce3') in 0.019020 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Land.wav
-  artifactKey: Guid(ff697d3070687ce4583faa0561a145a2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Land.wav using Guid(ff697d3070687ce4583faa0561a145a2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '4237e16e6e35464cc78a5ca22a97f69f') in 0.045478 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_SUV_color03.prefab
-  artifactKey: Guid(00d77ce56096de34eb6645947a0f8925) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_SUV_color03.prefab using Guid(00d77ce56096de34eb6645947a0f8925) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '7e338b1af57f5d7435f161fa85e7d32a') in 0.020467 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx
-  artifactKey: Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx using Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'c4a1b3f4db8708e7a14c76c67f082ff8') in 0.034909 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Button.prefab
-  artifactKey: Guid(9e55d9b4642484f41be20c69a9b48063) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Button.prefab using Guid(9e55d9b4642484f41be20c69a9b48063) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '1ea2a2b780752dee393eda1d48ad1a8c') in 0.030767 seconds 
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat
-  artifactKey: Guid(43714b68324cc2c409d534d9874f2a2b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat using Guid(43714b68324cc2c409d534d9874f2a2b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'bd14de6e40c8ca67c3a157ba8ac839a7') in 0.037900 seconds 
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png
-  artifactKey: Guid(d4d6919451fe3e24388816386a6d15a4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png using Guid(d4d6919451fe3e24388816386a6d15a4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'a0a54ff4e9c08f03a2bdf543b39ea154') in 0.021817 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_MetallicSmoothness.tif
-  artifactKey: Guid(b41d630ccc344454bb1f27587f9acd70) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_MetallicSmoothness.tif using Guid(b41d630ccc344454bb1f27587f9acd70) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'db6814fa292b7de3c5853603c577dff9') in 0.024443 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat
-  artifactKey: Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat using Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '0719abf81d195cc070344061134f2409') in 0.020622 seconds 
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Ambulance.mat using Guid(fded615538aced440887a3468715a826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9b20f732351a09ce7ab9bd9a857543') in 0.012906 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Wall_Mesh.fbx
-  artifactKey: Guid(ff02a0a00ab750f48b09459b1cafd1b8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+  Time since last request: 0.000030 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Container_color03.mat
+  artifactKey: Guid(5e29c495f3970b64f9d09ce50f034ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/Environment/Art/Models/Wall_Mesh.fbx using Guid(ff02a0a00ab750f48b09459b1cafd1b8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'c041166225d4d4dd03e6d0a0148e6a40') in 0.025690 seconds 
-Number of asset objects unloaded after import = 8
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Container_color03.mat using Guid(5e29c495f3970b64f9d09ce50f034ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a126a55b731bc0eee785c99c32eca0') in 0.014557 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_Normal.tif
-  artifactKey: Guid(2a3daea46c599324e873f935ab08000a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Bar.mat
+  artifactKey: Guid(1a8b38fa8ecb06d4b8eadffe456fd574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_Normal.tif using Guid(2a3daea46c599324e873f935ab08000a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'ea5391cdf1ba44af29327a6c533a1e48') in 0.022501 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs
-  artifactKey: Guid(4a300d010f57451488aa99000126fbd5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs using Guid(4a300d010f57451488aa99000126fbd5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'a58e0a3d1ae7e26fc9b1b8a9c7a890a8') in 0.010403 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_05.wav
-  artifactKey: Guid(14e8a8d2158bec840b56c54f5266e692) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_05.wav using Guid(14e8a8d2158bec840b56c54f5266e692) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '8d474e55042a992bfb4ac302960c7364') in 0.044096 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Plugins/FMOD/platforms/win/lib/x86_64/phonon_fmod.dll
-  artifactKey: Guid(f248d69eef0950c4187076782e4fc109) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/FMOD/platforms/win/lib/x86_64/phonon_fmod.dll using Guid(f248d69eef0950c4187076782e4fc109) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'f90f560f0c5666536685c51af1106c18') in 0.028642 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
-  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '86fbf013d8fd17f3ae75ad66e7f229bb') in 0.037678 seconds 
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
-  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '90414d514af39e81fe3d375d7de53548') in 0.031478 seconds 
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Plugins/SteamAudio/Binaries/Linux/x86/libphonon.so
-  artifactKey: Guid(b73d370ef894b8d409fc51247d5b13cf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Binaries/Linux/x86/libphonon.so using Guid(b73d370ef894b8d409fc51247d5b13cf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'b01cc9806ab2f1225fa22e7f60e5ec3d') in 0.012481 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libphonon_fmod.so
-  artifactKey: Guid(bce7dbe251c6a21478697206534484c0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libphonon_fmod.so using Guid(bce7dbe251c6a21478697206534484c0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '9a7dc1b4c27d07f9549622e0e14bf475') in 0.013538 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Plugins/SteamAudio/Binaries/Windows/x86_64/TrueAudioNext.dll
-  artifactKey: Guid(79aa0fc1a754b08408af853b0c212c19) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Binaries/Windows/x86_64/TrueAudioNext.dll using Guid(79aa0fc1a754b08408af853b0c212c19) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'e4b4706d062ec799c3c3ace7ea870d24') in 0.012423 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
-  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'f34913bf6b24ef030bb3282e4d787200') in 0.028469 seconds 
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Bar.mat using Guid(1a8b38fa8ecb06d4b8eadffe456fd574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5617a92e90b36b962720a4641a4f1814') in 0.019714 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Animations/Jump--Jump.anim.fbx
-  artifactKey: Guid(98f277b0c8055e143b2fcf058d3c27dc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+  Time since last request: 0.000019 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Natures.mat
+  artifactKey: Guid(39f651e340882304fa6f21b321d3bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Animations/Jump--Jump.anim.fbx using Guid(98f277b0c8055e143b2fcf058d3c27dc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '821d7e252babc6c4ed5b13510f89fbb0') in 0.041791 seconds 
-Number of asset objects unloaded after import = 145
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png
-  artifactKey: Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png using Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '9920c9f21e86543c15c70b03fc41666f') in 0.022244 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_RGB.tif
-  artifactKey: Guid(9b46b2c2f21deb843b7ac9242d5f13e6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_RGB.tif using Guid(9b46b2c2f21deb843b7ac9242d5f13e6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'f8c48d70faaf4b4d37e0b3111507a4e1') in 0.020050 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_AlbedoTransparency.tif
-  artifactKey: Guid(c444e3d02d2fcff4d9fe5211d67652a0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_AlbedoTransparency.tif using Guid(c444e3d02d2fcff4d9fe5211d67652a0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'cf69a8cef835440776083348891d3653') in 0.022484 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_SUV_color01.prefab
-  artifactKey: Guid(288b117258616aa4f928ba6f91dc47c3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_SUV_color01.prefab using Guid(288b117258616aa4f928ba6f91dc47c3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '9038f2ba921c5e16502c0d91493fa78c') in 0.018155 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Bus_color03.prefab
-  artifactKey: Guid(f269a0a343ed94c4e908a388c940ea06) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Vehicles/Vehicle with Static Wheels/Vehicle_Bus_color03.prefab using Guid(f269a0a343ed94c4e908a388c940ea06) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '93f28f988ecda5050a43c33df1f8e00a') in 0.018347 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Plugins/SteamAudio/Binaries/Windows/x86/phonon.dll
-  artifactKey: Guid(df5a46ce5e3327545a16c08880340232) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/SteamAudio/Binaries/Windows/x86/phonon.dll using Guid(df5a46ce5e3327545a16c08880340232) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'e9bacdf07421de6ce27cef707f221877') in 0.012162 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset
-  artifactKey: Guid(5cf8ae092ca54931b443bec5148f3c59) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset using Guid(5cf8ae092ca54931b443bec5148f3c59) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'c0ae9a35a90bf6f85139cac96dcd74cd') in 0.014151 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx
-  artifactKey: Guid(f712806514868e54699156ec05dcb749) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx using Guid(f712806514868e54699156ec05dcb749) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '725e9e4b8adb9b945235119cb85aa6ef') in 0.026831 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs
-  artifactKey: Guid(26e54e5a728a9234ab24fcf1460ed8a2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
-Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs using Guid(26e54e5a728a9234ab24fcf1460ed8a2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '385c2fbbd66df656fe08c70473456ba6') in 0.009411 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Natures.mat using Guid(39f651e340882304fa6f21b321d3bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403e1eafafabe55d03fc905f01c6dbde') in 0.019312 seconds 
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs
-  artifactKey: Guid(448cd6d8e2f2cb04096e777d99974bc4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Road.mat
+  artifactKey: Guid(faa0cd7e7e1757945a22cce35d7069cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs using Guid(448cd6d8e2f2cb04096e777d99974bc4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '2d5a765dc64fe39e5b4b69ab5d54b66b') in 0.009881 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Road.mat using Guid(faa0cd7e7e1757945a22cce35d7069cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678d928b4723121de5782978c29c4f86') in 0.015472 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Taxi.mat
+  artifactKey: Guid(24c20333a6b79874298a79151051f9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Taxi.mat using Guid(24c20333a6b79874298a79151051f9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0aa0fa387a969a882ac65d886c8bbe9') in 0.018229 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Music Store.mat
+  artifactKey: Guid(82af60631a0969d44b0bf6becad3dc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Music Store.mat using Guid(82af60631a0969d44b0bf6becad3dc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedae37a0649a10910f1c9f9090cfb09') in 0.014325 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Props_TrafficProps.mat
+  artifactKey: Guid(0ea03c6aa98d5224cb797d69c8ef34ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Props_TrafficProps.mat using Guid(0ea03c6aa98d5224cb797d69c8ef34ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e864a8d11f68f892ae852f9d57b0314') in 0.013282 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Chicken Shop.mat
+  artifactKey: Guid(d15e38c8ed480004fbb959137225b569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Chicken Shop.mat using Guid(d15e38c8ed480004fbb959137225b569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e10859e4bfdaf273cf1ac5e0ca5b55') in 0.015631 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color03.mat
+  artifactKey: Guid(503a5bca82bfa754d93ab882c47b76d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Building_Residential_color03.mat using Guid(503a5bca82bfa754d93ab882c47b76d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f8a5c31dba0816176b086bb60ae34d') in 0.012676 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.375297 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_Normal.tif
+  artifactKey: Guid(104a45460231b8d4783e0bb2223be28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_Normal.tif using Guid(104a45460231b8d4783e0bb2223be28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaf563af49cd2f274e8f4ae61fe31cf') in 0.056398 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_RGB.tif
+  artifactKey: Guid(a95378e0fd5828442a6ed903fb3b0bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_RGB.tif using Guid(a95378e0fd5828442a6ed903fb3b0bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b250b079242501f5772c6f71feb4f59a') in 0.024416 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_Normal.tif
+  artifactKey: Guid(b2c5d9c39850da946ae135dcb57faaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_Normal.tif using Guid(b2c5d9c39850da946ae135dcb57faaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0526f730f3d0ac8f13b0ce32a3d2a1') in 0.018751 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_RGB.tif
+  artifactKey: Guid(9b46b2c2f21deb843b7ac9242d5f13e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_RGB.tif using Guid(9b46b2c2f21deb843b7ac9242d5f13e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41eb3f598d5a215046ee618cacbbbc42') in 0.015173 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.096497 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Gift Shop.png
+  artifactKey: Guid(0ddba491ce4a04c4b8def1195e6300d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Gift Shop.png using Guid(0ddba491ce4a04c4b8def1195e6300d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228863884bd2202699ad4cc789c898f9') in 0.018493 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Residential_color01.prefab
-  artifactKey: Guid(921b4e33443ab5943afa3c4841e74cae) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png
+  artifactKey: Guid(d1118dda59970a2449ee890fa247c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab/Buildings/Building_Residential_color01.prefab using Guid(921b4e33443ab5943afa3c4841e74cae) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: '32b69f9ffdfe694964a0557525bc38a4') in 0.022419 seconds 
-Number of asset objects unloaded after import = 8
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png using Guid(d1118dda59970a2449ee890fa247c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5fee46bd0f5111ef588a7507f60215') in 0.016521 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Truck_color03.mat
-  artifactKey: Guid(7e719e1ad4449a2489e25a6f4d6e8019) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+  artifactKey: Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Truck_color03.mat using Guid(7e719e1ad4449a2489e25a6f4d6e8019) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)  -> (artifact id: 'b26b6a322f04f7fec2763d46c137a18e') in 0.010771 seconds 
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd using Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4555b628339082e883ffaf4f568c2611') in 0.018430 seconds 
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Pizza.png
+  artifactKey: Guid(0cf2b5e2d8e8aba41b18787cd9399b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Pizza.png using Guid(0cf2b5e2d8e8aba41b18787cd9399b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9d5ac2ad00afadbe8ce5963de26c72') in 0.010430 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.727780 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Sprint.png
+  artifactKey: Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Sprint.png using Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5295291bd7dbc1b302586c6013c3f3') in 0.065916 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 118.060451 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building Sky_small_color01.fbx
+  artifactKey: Guid(47a83e21f77098142be8ace3346172ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building Sky_small_color01.fbx using Guid(47a83e21f77098142be8ace3346172ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089ab4f9a8699678346da50a9422af9d') in 0.050741 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Bakery.fbx
+  artifactKey: Guid(ea9803764c3c1e74b83f6dda1cfa0885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Bakery.fbx using Guid(ea9803764c3c1e74b83f6dda1cfa0885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70357d73e9ab3d6b230778601b96b12f') in 0.018671 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Music Store.fbx
+  artifactKey: Guid(e6c7be1b4691ca441abe64159118907b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Music Store.fbx using Guid(e6c7be1b4691ca441abe64159118907b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb352739eddfe04cd6dee33f848ace2a') in 0.026192 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_House_01_color01.fbx
+  artifactKey: Guid(6fddb771ca917c6498310bcc16a817e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_House_01_color01.fbx using Guid(6fddb771ca917c6498310bcc16a817e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb780a45043ef2a9c407a78fc14603f') in 0.020750 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Fruits  Shop.fbx
+  artifactKey: Guid(0f5d2e6533e3fb44fbd094c173ba3f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Fruits  Shop.fbx using Guid(0f5d2e6533e3fb44fbd094c173ba3f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b220b771e5868047bf39325ac843c013') in 0.020581 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Stadium.fbx
+  artifactKey: Guid(8d799610519b6274c8bb35a7fd95f5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Stadium.fbx using Guid(8d799610519b6274c8bb35a7fd95f5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121679235b17c89709aae7976dcb4074') in 0.018859 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Books Shop.fbx
+  artifactKey: Guid(2c2dcc3c02224de46b4813f3110dca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Books Shop.fbx using Guid(2c2dcc3c02224de46b4813f3110dca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fa99fe7ff5fcf279c16fa0e3962a3c') in 0.018545 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_House_02_color01.fbx
+  artifactKey: Guid(8cb6d953267a0884288df6a274f09c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_House_02_color01.fbx using Guid(8cb6d953267a0884288df6a274f09c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e2cf2ffcffd2ee356e913352fb2f1c') in 0.020767 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Pizza.fbx
+  artifactKey: Guid(d015ce89362e9504890f33e36733d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Pizza.fbx using Guid(d015ce89362e9504890f33e36733d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5131f783f76e39a31236c00d226fe704') in 0.021291 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Fast Food.fbx
+  artifactKey: Guid(4ddf9dbec6534a14a9612193ee06f4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Fast Food.fbx using Guid(4ddf9dbec6534a14a9612193ee06f4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059907354245c7a9c35369004e114979') in 0.016881 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Restaurant.fbx
+  artifactKey: Guid(efc62b24c745a1f469c0d1453dfb41e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Restaurant.fbx using Guid(efc62b24c745a1f469c0d1453dfb41e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5383d2f97949fae8f33308d922cde521') in 0.019330 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Gas Station.fbx
+  artifactKey: Guid(25449c1a4c4ca004ead70b6c0889695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Gas Station.fbx using Guid(25449c1a4c4ca004ead70b6c0889695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a199cf8083b9ae4a8e523ec8ad490579') in 0.017772 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Factory.fbx
+  artifactKey: Guid(932be02d2912c394786d8ec1d2007f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Factory.fbx using Guid(932be02d2912c394786d8ec1d2007f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f160c86dc17cfb584389d3ca3e2771e2') in 0.017475 seconds 
+Number of asset objects unloaded after import = 11
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

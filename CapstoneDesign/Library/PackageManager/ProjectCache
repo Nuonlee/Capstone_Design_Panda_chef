@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638536274506866791
+      ticks: 638541230277811144
     m_Hash: 831198358
   m_LockFileStatus:
     m_FilePath: D:/Github/Capstone_Design_Panda_chef/CapstoneDesign/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638536274506871755
+      ticks: 638541230277820924
     m_Hash: 83236429
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -3899,13 +3899,15 @@ m_ResolvedPackages:
     - 1.8.13
     - 1.8.14
     - 1.8.15
+    - 1.8.16
     compatible:
     - 1.8.11
     - 1.8.12
     - 1.8.13
     - 1.8.14
     - 1.8.15
-    verified: 1.8.15
+    - 1.8.16
+    verified: 1.8.16
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
