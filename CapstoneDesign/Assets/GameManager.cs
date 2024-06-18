@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     {
         player.GetComponent<MouseMove>().sensitivity = 0;
         player.GetComponent<CharacterMove>().moveSpeed = 0;
+        player.GetComponentInChildren<GuidanceObject>().wayThrough.volume = 0;
     }
 
     // Update is called once per frame
@@ -26,13 +27,19 @@ public class GameManager : MonoBehaviour
             canvas.GetComponent<MenuController>().activePause(0);
             player.GetComponent<MouseMove>().sensitivity = 500;
             player.GetComponent<CharacterMove>().moveSpeed = 7;
+            player.GetComponentInChildren<GuidanceObject>().wayThrough.volume = 0;
+        }
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            canvas.GetComponent<MenuController>().black.SetActive(true);
         }
 
-        if (isGameover == true)
+        if (player.GetComponent<CollisionScript>().isOver)
         {
             player.GetComponent<CharacterMove>().moveSpeed = 0;
             player.GetComponent<MouseMove>().sensitivity = 0;
             canvas.GetComponent<MenuController>().activePause(1);
+            player.GetComponentInChildren<GuidanceObject>().wayThrough.volume = 0;
         }
 
         if(player.GetComponent<CollisionScript>().isClear == true)
@@ -40,6 +47,7 @@ public class GameManager : MonoBehaviour
             canvas.GetComponent<MenuController>().Clear.SetActive(true);
             player.GetComponent<CharacterMove>().moveSpeed = 0;
             player.GetComponent<MouseMove>().sensitivity = 0;
+            player.transform.position = new Vector3(50, 1, 200);
         }
     }
 }
