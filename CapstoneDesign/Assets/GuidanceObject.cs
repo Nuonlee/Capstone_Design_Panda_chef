@@ -40,7 +40,7 @@ public class GuidanceObject : MonoBehaviour
         this.transform.position = objectLocation;
 
         vplayer2Goal = new Vector3(Goal.transform.position.x - Player.transform.position.x, Goal.transform.position.z - Player.transform.position.z, 0);
-        vplayer2Audio = new Vector3(Mathf.Sin(Player.transform.eulerAngles.y), Mathf.Cos(Player.transform.eulerAngles.y), 0);
+        vplayer2Audio = new Vector3(0, Mathf.Cos(Player.transform.eulerAngles.y), 0);
         //        Debug.Log( "euler + " + playerRotation + "P2A " + vplayer2Audio.magnitude + "Angle " + Getangle(vplayer2Audio, vplayer2Goal));
         wayThrough.volume = (1.5f - distance / initialDistance) * gamestart;
     }

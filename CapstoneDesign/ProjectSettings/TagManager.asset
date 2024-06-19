@@ -10,14 +10,15 @@ TagManager:
   - Ground
   - Road
   - Lake
+  - Object
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
-  - 
+  - Building
   - 
   - 
   - 

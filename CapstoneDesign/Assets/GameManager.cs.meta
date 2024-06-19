@@ -3,7 +3,12 @@ guid: 8d9daa793d13c1d4882189470f5b8f75
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - player: {fileID: 3111531768947408386, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
+  - goal: {fileID: 3428969405321409874, guid: e75083aa8e15081418d27285cc350244, type: 3}
+  - canvas: {fileID: 3687768688650319007, guid: caee44b2ac2758b4f8eef8a71748b6cd, type: 3}
+  - audioclip: {fileID: 8300000, guid: 081c903e442ac7144af90e679bc020e1, type: 3}
+  - gameoverUI: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -7,12 +7,15 @@ public class MenuController : MonoBehaviour
     public GameObject black;
     public GameObject start;
     public GameObject Clear;
+
+    public bool blackOn = false;
     // Start is called before the first frame update
     void Start()
     {
         start = transform.GetChild(2).gameObject;
         Clear = transform.GetChild(4).gameObject;
         black = transform.GetChild(3).gameObject;
+        black.SetActive(blackOn);
     }
 
     public void activePause(int i)
