@@ -14708,6 +14708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Sidewalk
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3181f15579d1b0c46872c9980226268b, type: 3}
+      propertyPath: m_TagString
+      value: Road
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3181f15579d1b0c46872c9980226268b, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -25234,7 +25238,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 8956582155140075883, guid: 4cc7998df5ca45241a37fe66688cf118, type: 2}
   m_audioClip: {fileID: 8300000, guid: c080a43439910fd4187301b9c4a240d1, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -32435,6 +32439,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1805567324}
+    - target: {fileID: 465181998622313952, guid: 0181cfb069103744384393d159078cca, type: 3}
+      propertyPath: playerStartposition.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 465181998622313952, guid: 0181cfb069103744384393d159078cca, type: 3}
+      propertyPath: playerStartposition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 465181998622313952, guid: 0181cfb069103744384393d159078cca, type: 3}
+      propertyPath: playerStartposition.z
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 465181998622313953, guid: 0181cfb069103744384393d159078cca, type: 3}
       propertyPath: m_Name
       value: GameManager
@@ -32492,6 +32508,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6397406776252700136, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
+      propertyPath: Spatialize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6397406776252700136, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
+      propertyPath: BypassEffects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6397406776252700136, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6397406776252700136, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
+      propertyPath: SpatializePostEffects
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3111531768947408386, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
       propertyPath: m_Name
       value: Player
