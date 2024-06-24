@@ -92,12 +92,15 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   colliders: []
+  Groundcolliders: []
+  Objectcolliders: []
   isWalking: 0
   warning: {fileID: 1916341717240151865, guid: 5844a9179aee41f4c8485d6e32d16697, type: 3}
   warningCooltime: 0
   Speaking: {fileID: 351459669280428229, guid: c9cac8bdf981985408b7286b9b288d33, type: 3}
   speakingCooltime: 0
-  walking: {fileID: 0}
+  walkingClip: {fileID: 0}
+  gameOver: {fileID: 0}
 --- !u!143 &3111531768947408446
 CharacterController:
   m_ObjectHideFlags: 0
@@ -140,11 +143,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3111531768947408386}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0981679, y: 0.97759724, z: 0.89171326}
-  m_Center: {x: 0.06795502, y: -0.011197567, z: -0.054139197}
+  m_Size: {x: 1.5192255, y: 2.1170015, z: 1.3465495}
+  m_Center: {x: 0.09660408, y: -0.5808995, z: -0.047056913}
 --- !u!82 &-6397406776252700136
 AudioSource:
   m_ObjectHideFlags: 0

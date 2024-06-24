@@ -48,8 +48,13 @@ MonoBehaviour:
   player: {fileID: 3111531768947408386, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
   goal: {fileID: 3428969405321409874, guid: e75083aa8e15081418d27285cc350244, type: 3}
   canvas: {fileID: 3687768688650319007, guid: caee44b2ac2758b4f8eef8a71748b6cd, type: 3}
+  gamestart: {fileID: 8300000, guid: f748510e1b1725746a58a044852af5c1, type: 3}
+  stageclear: {fileID: 8300000, guid: db3cd05659962014ab15750a24c6bf76, type: 3}
+  gameclear: {fileID: 8300000, guid: 3cfffde8af24e42419d8dcf961ba7b5e, type: 3}
+  restart: {fileID: 8300000, guid: 729affac57aa9124fab751b907901c62, type: 3}
   playerStartposition: {x: 0, y: 0, z: 0}
   isGameover: 0
+  clear: 0
 --- !u!82 &1229552283
 AudioSource:
   m_ObjectHideFlags: 0

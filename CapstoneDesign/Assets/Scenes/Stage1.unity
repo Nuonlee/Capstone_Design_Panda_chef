@@ -922,7 +922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3111531768947408447, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
       propertyPath: radius
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3111531768947408447, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
       propertyPath: walking
@@ -940,6 +940,10 @@ PrefabInstance:
       propertyPath: gameOver
       value: 
       objectReference: {fileID: 144075639}
+    - target: {fileID: 3111531768947408447, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
+      propertyPath: walkingClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 85016e0f2b01da248b9663dd49a161b0, type: 3}
     - target: {fileID: 3111531768947408447, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
       propertyPath: layer.m_Bits
       value: 72
@@ -6093,6 +6097,10 @@ PrefabInstance:
     - target: {fileID: 8082612214144964267, guid: d5b8de414112a004a82d0437b5f7a780, type: 3}
       propertyPath: m_Name
       value: PP_Meadow_Path_05 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082612214144964267, guid: d5b8de414112a004a82d0437b5f7a780, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8890356699427785745, guid: d5b8de414112a004a82d0437b5f7a780, type: 3}
       propertyPath: m_RootOrder
@@ -11610,6 +11618,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 144075630}
+    - target: {fileID: 465181998622313952, guid: 0181cfb069103744384393d159078cca, type: 3}
+      propertyPath: stageclear
+      value: 
+      objectReference: {fileID: 8300000, guid: db3cd05659962014ab15750a24c6bf76, type: 3}
     - target: {fileID: 465181998622313952, guid: 0181cfb069103744384393d159078cca, type: 3}
       propertyPath: playerStartposition.x
       value: 56

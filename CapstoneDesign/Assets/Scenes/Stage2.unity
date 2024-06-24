@@ -3500,6 +3500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Natures_Grass Tile (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -8984,6 +8988,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_Name
       value: Natures_Grass Tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_RootOrder
@@ -25419,6 +25427,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!82 &1805567342 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: -6397406776252700136, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
+  m_PrefabInstance: {fileID: 3111531770649852766}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1806218777 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 1d53359c70324d14c989d7058b50ec6b, type: 3}
@@ -32440,6 +32453,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1805567324}
     - target: {fileID: 465181998622313952, guid: 0181cfb069103744384393d159078cca, type: 3}
+      propertyPath: stageclear
+      value: 
+      objectReference: {fileID: 8300000, guid: db3cd05659962014ab15750a24c6bf76, type: 3}
+    - target: {fileID: 465181998622313952, guid: 0181cfb069103744384393d159078cca, type: 3}
       propertyPath: playerStartposition.x
       value: 50
       objectReference: {fileID: 0}
@@ -32572,6 +32589,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3111531768947408444, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3111531768947408447, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
       propertyPath: radius
       value: 30.78
@@ -32579,7 +32600,7 @@ PrefabInstance:
     - target: {fileID: 3111531768947408447, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
       propertyPath: walking
       value: 
-      objectReference: {fileID: 1805567332}
+      objectReference: {fileID: 1805567342}
     - target: {fileID: 3111531768947408447, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
       propertyPath: warning
       value: 
@@ -32592,6 +32613,10 @@ PrefabInstance:
       propertyPath: gameOver
       value: 
       objectReference: {fileID: 1805567341}
+    - target: {fileID: 3111531768947408447, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
+      propertyPath: walkingClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 85016e0f2b01da248b9663dd49a161b0, type: 3}
     - target: {fileID: 3111531768947408447, guid: 61917b09e3c1d94418f30e6fc123e9e4, type: 3}
       propertyPath: audioWarning
       value: 

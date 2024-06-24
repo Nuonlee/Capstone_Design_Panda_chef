@@ -13,6 +13,8 @@ public class CollisionScript : MonoBehaviour
     public float radius = 10f;
     public LayerMask layer;
     public Collider[] colliders;
+    public Collider[] Groundcolliders;
+    public Collider[] Objectcolliders;
 
     public bool isWalking;
 
@@ -23,6 +25,7 @@ public class CollisionScript : MonoBehaviour
     public float speakingCooltime = 0f;
 
     public AudioSource walking;
+    public AudioClip walkingClip;
     public AudioSource gameOver;
 
     float objDistance;
@@ -32,28 +35,37 @@ public class CollisionScript : MonoBehaviour
     {
         isClear = false;
         isOver = false;
+        walking = GetComponent<AudioSource>();
     }
     void Update()
     {
         colliders = Physics.OverlapSphere(transform.position, radius, layer);
+        Objectcolliders = Physics.OverlapSphere(transform.position, radius / 1.5f, layer);
 
-        if(colliders.Length > 0)
+        if (colliders.Length > 0)
         {
             foreach (Collider col in colliders)
             {
                 if (col.tag == "Enemy" && warncool)
                 {
-                    Debug.Log(col.name + "Enemy detected");
                     objDistance = Vector3.Distance(this.transform.position, col.transform.position);
                     objLocation = this.transform.position + (col.transform.position - this.transform.position) / objDistance;
                     Instantiate(warning, objLocation, Quaternion.identity);
                     warncool = false;
                     warningCooltime = 0.5f;
                 }
-                else if(col.tag != "Enemy" && col.tag != "Goal" && col.tag != "Ground" && col.tag != "Lake" && col.tag != "Road" && speakcool)
+
+
+            }
+        }
+        if(Objectcolliders.Length > 0)
+        {
+            foreach(Collider objcol in Objectcolliders)
+            {
+                if (objcol.tag != "Enemy" && objcol.tag != "Goal" && objcol.tag != "Ground" && objcol.tag != "Lake" && objcol.tag != "Road" && speakcool)
                 {
-                    objDistance = Vector3.Distance(this.transform.position, col.transform.position);
-                    objLocation = this.transform.position + (col.transform.position - this.transform.position) / objDistance;
+                    objDistance = Vector3.Distance(this.transform.position, objcol.transform.position);
+                    objLocation = this.transform.position + (objcol.transform.position - this.transform.position) / objDistance;
                     Instantiate(Speaking, objLocation, Quaternion.identity);
                     speakingCooltime = 1f;
                     speakcool = false;
@@ -61,12 +73,14 @@ public class CollisionScript : MonoBehaviour
             }
         }
 
-        if (isWalking && !walking.isPlaying)
-        {
-            Debug.Log("walk");
-            walking.Play();
-        }
 
+        if (isWalking)
+        {
+            if (!walking.isPlaying)
+            {
+                walking.PlayOneShot(walkingClip);
+            }
+        }
         warningCooltime -= Time.deltaTime;
         speakingCooltime -= Time.deltaTime;
         if(warningCooltime <= 0)
@@ -90,30 +104,9 @@ public class CollisionScript : MonoBehaviour
             isOver = true;
             gameOver.Play();
         }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Road"))
-        {
-            isWalking = true;
-        }
-        else if (collision.gameObject.CompareTag("Grounnd"))
+        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Road")
         {
             isWalking = true;
         }
     }
-
-    private void OnCollisionExit(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Road"))
-        {
-            isWalking = false;
-        }
-        else if (collision.gameObject.CompareTag("Grounnd"))
-        {
-            isWalking = false;
-        }
-    }
-
 }
