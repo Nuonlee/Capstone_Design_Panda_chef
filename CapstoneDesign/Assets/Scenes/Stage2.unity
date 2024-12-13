@@ -2132,6 +2132,11 @@ MonoBehaviour:
   z: 350
   speed: -0.3
   distance: 350
+  colliders: []
+  radius: 10
+  layer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!65 &195227238
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4121,6 +4126,11 @@ MonoBehaviour:
   z: 100
   speed: 0.2
   distance: 350
+  colliders: []
+  radius: 10
+  layer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &342323375 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 3181f15579d1b0c46872c9980226268b, type: 3}
@@ -4499,6 +4509,11 @@ MonoBehaviour:
   z: 100
   speed: 0.2
   distance: 350
+  colliders: []
+  radius: 10
+  layer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1001 &378172365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7956,6 +7971,11 @@ MonoBehaviour:
   z: 300
   speed: -0.5
   distance: 350
+  colliders: []
+  radius: 10
+  layer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!4 &662061224 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: a119eb0fa059db34bbaef286c1af1696, type: 3}
@@ -23283,6 +23303,11 @@ MonoBehaviour:
   z: 300
   speed: -0.5
   distance: 350
+  colliders: []
+  radius: 10
+  layer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!65 &1683015941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31761,6 +31786,11 @@ MonoBehaviour:
   z: 100
   speed: 0.3
   distance: 350
+  colliders: []
+  radius: 10
+  layer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!4 &2111154442 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 79ef5961b86276943ab5da38ae9f2e4b, type: 3}
